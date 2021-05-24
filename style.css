@@ -71,3 +71,28 @@
     width: 49%;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .social-media {
+    flex-basis: 15%;
+  }
+
+  .card--wide {
+    order: -1;
+    width: 32%;
+  }
+
+  .card--md {
+    width: 32%;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .newsletter__article {
+    width: 32%;
+  }
+}
